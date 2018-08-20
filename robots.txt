@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://lichwan.github.io/lichwan.github.io/sitemap.xml
