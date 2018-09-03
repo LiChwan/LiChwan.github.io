@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Lichuan - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Mar 2018 16:01:23 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 03 Sep 2018 08:56:41 +0800</lastBuildDate>
     
 	<atom:link href="https://lichwan.github.io/lichwan.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fortran</title>
+      <link>https://lichwan.github.io/lichwan.github.io/tags/fortran/</link>
+      <pubDate>Mon, 03 Sep 2018 08:56:41 +0800</pubDate>
+      
+      <guid>https://lichwan.github.io/lichwan.github.io/tags/fortran/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inkscape</title>
+      <link>https://lichwan.github.io/lichwan.github.io/tags/inkscape/</link>
+      <pubDate>Mon, 03 Sep 2018 09:30:08 +0800</pubDate>
+      
+      <guid>https://lichwan.github.io/lichwan.github.io/tags/inkscape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mkl</title>
+      <link>https://lichwan.github.io/lichwan.github.io/tags/mkl/</link>
+      <pubDate>Mon, 03 Sep 2018 08:56:41 +0800</pubDate>
+      
+      <guid>https://lichwan.github.io/lichwan.github.io/tags/mkl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pdf</title>
+      <link>https://lichwan.github.io/lichwan.github.io/tags/pdf/</link>
+      <pubDate>Mon, 03 Sep 2018 09:30:08 +0800</pubDate>
+      
+      <guid>https://lichwan.github.io/lichwan.github.io/tags/pdf/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Preview</title>
@@ -30,11 +66,29 @@
     </item>
     
     <item>
+      <title>Svg</title>
+      <link>https://lichwan.github.io/lichwan.github.io/tags/svg/</link>
+      <pubDate>Mon, 03 Sep 2018 09:30:08 +0800</pubDate>
+      
+      <guid>https://lichwan.github.io/lichwan.github.io/tags/svg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tag 6</title>
       <link>https://lichwan.github.io/lichwan.github.io/tags/tag-6/</link>
       <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
       
       <guid>https://lichwan.github.io/lichwan.github.io/tags/tag-6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vslf</title>
+      <link>https://lichwan.github.io/lichwan.github.io/tags/vslf/</link>
+      <pubDate>Mon, 03 Sep 2018 08:56:41 +0800</pubDate>
+      
+      <guid>https://lichwan.github.io/lichwan.github.io/tags/vslf/</guid>
       <description></description>
     </item>
     

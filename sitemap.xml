@@ -10,6 +10,20 @@
   </url>
   
   <url>
+    <loc>https://lichwan.github.io/lichwan.github.io/post/pdf_to_svg/</loc>
+    <lastmod>2018-09-03T09:30:08+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lichwan.github.io/lichwan.github.io/post/mkl/</loc>
+    <lastmod>2018-09-03T09:01:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://lichwan.github.io/lichwan.github.io/post/hello/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -30,8 +44,36 @@
   </url>
   
   <url>
+    <loc>https://lichwan.github.io/lichwan.github.io/categories/fortran/</loc>
+    <lastmod>2018-09-03T09:01:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lichwan.github.io/lichwan.github.io/tags/fortran/</loc>
+    <lastmod>2018-09-03T09:01:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lichwan.github.io/lichwan.github.io/categories/image-processing/</loc>
+    <lastmod>2018-09-03T09:30:08+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lichwan.github.io/lichwan.github.io/categories/index/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lichwan.github.io/lichwan.github.io/tags/inkscape/</loc>
+    <lastmod>2018-09-03T09:30:08+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -44,21 +86,35 @@
   </url>
   
   <url>
+    <loc>https://lichwan.github.io/lichwan.github.io/categories/mkl/</loc>
+    <lastmod>2018-09-03T09:01:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lichwan.github.io/lichwan.github.io/tags/mkl/</loc>
+    <lastmod>2018-09-03T09:01:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lichwan.github.io/lichwan.github.io/tags/pdf/</loc>
+    <lastmod>2018-09-03T09:30:08+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lichwan.github.io/lichwan.github.io/post/</loc>
-    <lastmod>2018-03-07T16:01:23+08:00</lastmod>
+    <lastmod>2018-09-03T09:30:08+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lichwan.github.io/lichwan.github.io/tags/preview/</loc>
-    <lastmod>2018-03-07T16:01:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lichwan.github.io/lichwan.github.io/tags/shortcodes/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -72,6 +128,20 @@
   </url>
   
   <url>
+    <loc>https://lichwan.github.io/lichwan.github.io/tags/shortcodes/</loc>
+    <lastmod>2018-03-07T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lichwan.github.io/lichwan.github.io/tags/svg/</loc>
+    <lastmod>2018-09-03T09:30:08+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lichwan.github.io/lichwan.github.io/tags/tag-6/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -80,7 +150,14 @@
   
   <url>
     <loc>https://lichwan.github.io/lichwan.github.io/tags/</loc>
-    <lastmod>2018-03-07T16:01:23+08:00</lastmod>
+    <lastmod>2018-09-03T09:01:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lichwan.github.io/lichwan.github.io/tags/vslf/</loc>
+    <lastmod>2018-09-03T09:01:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

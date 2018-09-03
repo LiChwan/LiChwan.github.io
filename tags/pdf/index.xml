@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pdf on Lichuan - A super concise theme for Hugo</title>
+    <link>https://lichwan.github.io/lichwan.github.io/tags/pdf/</link>
+    <description>Recent content in Pdf on Lichuan - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 03 Sep 2018 09:30:08 +0800</lastBuildDate>
+    
+	<atom:link href="https://lichwan.github.io/lichwan.github.io/tags/pdf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PDF_to_SVG</title>
+      <link>https://lichwan.github.io/lichwan.github.io/post/pdf_to_svg/</link>
+      <pubDate>Mon, 03 Sep 2018 09:30:08 +0800</pubDate>
+      
+      <guid>https://lichwan.github.io/lichwan.github.io/post/pdf_to_svg/</guid>
+      <description>SVG文檔能在word和網頁上直接呈現高清矢量格式的圖片，GMT，Gnuplot等作圖軟體生成的圖件，常常是PDF或者PS格式，因此，采用以</description>
+    </item>
+    
+  </channel>
+</rss>

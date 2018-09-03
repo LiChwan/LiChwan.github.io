@@ -6,10 +6,28 @@
     <description>Recent content in Posts on Lichuan - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Mar 2018 16:01:23 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 03 Sep 2018 09:30:08 +0800</lastBuildDate>
     
 	<atom:link href="https://lichwan.github.io/lichwan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PDF_to_SVG</title>
+      <link>https://lichwan.github.io/lichwan.github.io/post/pdf_to_svg/</link>
+      <pubDate>Mon, 03 Sep 2018 09:30:08 +0800</pubDate>
+      
+      <guid>https://lichwan.github.io/lichwan.github.io/post/pdf_to_svg/</guid>
+      <description>SVG文檔能在word和網頁上直接呈現高清矢量格式的圖片，GMT，Gnuplot等作圖軟體生成的圖件，常常是PDF或者PS格式，因此，采用以</description>
+    </item>
+    
+    <item>
+      <title>Fortran compile some MKL</title>
+      <link>https://lichwan.github.io/lichwan.github.io/post/mkl/</link>
+      <pubDate>Mon, 03 Sep 2018 08:56:41 +0800</pubDate>
+      
+      <guid>https://lichwan.github.io/lichwan.github.io/post/mkl/</guid>
+      <description>MKL 是Intel公司開發的計算軟體，學生能憑藉學校郵箱賬號免費申請該軟體，其下載地址。 安裝完畢后， 1 2 3 4 5 6 7 8 9 10 11 FC = gfortran flag = -fopenmp # #FC = ifort #flag</description>
+    </item>
     
     <item>
       <title>Jane Theme Preview</title>
