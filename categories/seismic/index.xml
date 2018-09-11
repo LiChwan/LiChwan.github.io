@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seismic on Lichuan - A super concise theme for Hugo</title>
+    <link>https://lichwan.github.io/lichwan.github.io/categories/seismic/</link>
+    <description>Recent content in Seismic on Lichuan - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Sep 2018 17:33:18 +0800</lastBuildDate>
+    
+	<atom:link href="https://lichwan.github.io/lichwan.github.io/categories/seismic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FAST</title>
+      <link>https://lichwan.github.io/lichwan.github.io/post/fast/</link>
+      <pubDate>Tue, 11 Sep 2018 17:33:18 +0800</pubDate>
+      
+      <guid>https://lichwan.github.io/lichwan.github.io/post/fast/</guid>
+      <description>FAST-First Arrival Seismic Tomography Install in Linux First Arrival Seismic Tomography FAST是一个能夠計算二維/三維first arrival tomography的程式，他已經20歲了(1998年first relea</description>
+    </item>
+    
+  </channel>
+</rss>

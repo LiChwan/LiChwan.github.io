@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>https://lichwan.github.io/lichwan.github.io/post/fast/</loc>
+    <lastmod>2018-09-11T17:33:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://lichwan.github.io/lichwan.github.io/post/pdf_to_svg/</loc>
     <lastmod>2018-09-03T09:30:08+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -108,7 +115,7 @@
   
   <url>
     <loc>https://lichwan.github.io/lichwan.github.io/post/</loc>
-    <lastmod>2018-09-03T09:30:08+08:00</lastmod>
+    <lastmod>2018-09-11T17:33:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -116,6 +123,27 @@
   <url>
     <loc>https://lichwan.github.io/lichwan.github.io/tags/preview/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lichwan.github.io/lichwan.github.io/tags/ray-tracing/</loc>
+    <lastmod>2018-09-11T17:33:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lichwan.github.io/lichwan.github.io/categories/seismic/</loc>
+    <lastmod>2018-09-11T17:33:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lichwan.github.io/lichwan.github.io/tags/seismic-tomo/</loc>
+    <lastmod>2018-09-11T17:33:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -130,6 +158,13 @@
   <url>
     <loc>https://lichwan.github.io/lichwan.github.io/tags/shortcodes/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lichwan.github.io/lichwan.github.io/categories/software/</loc>
+    <lastmod>2018-09-11T17:33:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -151,6 +186,13 @@
   <url>
     <loc>https://lichwan.github.io/lichwan.github.io/tags/</loc>
     <lastmod>2018-09-03T09:01:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lichwan.github.io/lichwan.github.io/tags/traveltime/</loc>
+    <lastmod>2018-09-11T17:33:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
