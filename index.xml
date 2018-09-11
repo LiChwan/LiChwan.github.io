@@ -35,6 +35,84 @@
     </item>
     
     <item>
+      <title>FAST</title>
+      <link>https://lichwan.github.io/lichwan.github.io/post/fast/</link>
+      <pubDate>Tue, 11 Sep 2018 17:33:18 +0800</pubDate>
+      
+      <guid>https://lichwan.github.io/lichwan.github.io/post/fast/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;fast-first-arrival-seismic-tomography-install-in-linux&#34;&gt;FAST-First Arrival Seismic Tomography Install in Linux&lt;/h1&gt;
+
+&lt;p&gt;First Arrival Seismic Tomography &lt;a href=&#34;http://terra.rice.edu/department/faculty/zelt/fast.html&#34;&gt;FAST&lt;/a&gt;是一个能夠計算二維/三維first arrival tomography的程式，他已經20歲了(1998年first release)，請下載FAST主程式，也必須下載for g77的&lt;a href=&#34;http://terra.rice.edu/department/faculty/zelt/fast_g77_patch.tar.gz&#34;&gt;patch&lt;/a&gt;檔。&lt;/p&gt;
+
+&lt;h2 id=&#34;1-準備好編譯器以及所需的libraries&#34;&gt;1. 準備好編譯器以及所需的libraries&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://centos.pkgs.org/7/centos-x86_64/compat-libf2c-34-3.4.6-32.el7.x86_64.rpm.html&#34;&gt;CentOS7兼容包&lt;/a&gt;或者直接&lt;a href=&#34;https://linuxsoft.cern.ch/cern/centos/7/updates/x86_64/repoview/compat-libf2c-34.html&#34;&gt;下載&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;CentOS 6.x&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-compat g77&#34; data-lang=&#34;compat g77&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-compat g77&#34; data-lang=&#34;compat g77&#34;&gt;yum install compat-libf2c-34 compat-gcc-34-g77-3.4.6-20.fc14.i686 make -y
+ln -s /usr/bin/g77 /usr/bin/f77
+ln -s /usr/lib/libg2c.so.0 /usr/lib/libf2c.so.2 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;2-下載fast以及其patch&#34;&gt;2. 下載FAST以及其patch&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Download the package&#34; data-lang=&#34;Download the package&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Download the package&#34; data-lang=&#34;Download the package&#34;&gt;wget http://terra.rice.edu/department/faculty/zelt/fast.tar.gz
+wget http://terra.rice.edu/department/faculty/zelt/fast_g77_patch.tar.gz&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;解壓縮&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;tar zxvf fast.tar.gz
+mv fast fast_g77
+tar zxvf fast_g77_patch.tar.gz&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;3-編譯&#34;&gt;3. 編譯&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Compile&#34; data-lang=&#34;Compile&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Compile&#34; data-lang=&#34;Compile&#34;&gt;cp -Rf fast_g77/* fast
+patch -p0 &amp;lt; fast_g77.diff
+cd fast
+./COMPILE_FAST_Lee.sh&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;COMPILE_FAST_Lee.sh&lt;/strong&gt; Can be &amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;4-設定環境變數&#34;&gt;4. 設定環境變數&lt;/h2&gt;
+
+&lt;p&gt;加入環境變數到~/.bashrc 或是/etc/profile&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>PDF_to_SVG</title>
       <link>https://lichwan.github.io/lichwan.github.io/post/pdf_to_svg/</link>
       <pubDate>Mon, 03 Sep 2018 09:30:08 +0800</pubDate>
